@@ -1,6 +1,6 @@
-// const fs = require('fs'); -- CommnoJS
 import fs from "fs";
 import { v4 as uuid } from 'uuid';
+// const fs = require('fs'); -- CommnoJS
 const DB_FILE_PATH = './core/db'; // banco falso
 
 // console.log('CRUD');
