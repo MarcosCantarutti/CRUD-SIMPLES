@@ -1,0 +1,24 @@
+{
+  "name": "crud_com_qualidade",
+  "version": "1.0.0",
+  "description": "Projeto criando um CRUD com qualidade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:crud": "npx ts-node ./core/crud.ts",
+    "dev:crud": "nodemon --ext ts,tsx --exec npm run start:crud"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "save-dev": "^0.0.1-security",
+    "typescript": "^5.1.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "@types/uuid": "^9.0.2",
+    "nodemon": "^2.0.22"
+  }
+}
